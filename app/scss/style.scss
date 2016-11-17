@@ -1,0 +1,13 @@
+// ----
+// Sass (v3.3.6)
+// Compass (v)
+// Susy (v)
+// ----  
+@import "susy";
+@import "compass";
+@import "breakpoint";
+
+//@import url(http://allfont.ru/allfont.css?fonts=open-sans);
+// Susy custom settings 
+$susy: ( columns: 12, container: 1200px, gutters: 1/10, global-box-sizing: border-box, debug: (image: show));
+@include border-box-sizing;
